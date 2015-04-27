@@ -1,0 +1,27 @@
+{
+  "name": "1-pin",
+  "version": "0.0.1",
+  "description": "Education project «pin» for HTML Academy",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt lint",
+    "pregosha": "npm install",
+    "gosha": "grunt gosha",
+    "pages": "grunt gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/whitebalance/1-pin.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/whitebalance/1-pin/issues"
+  },
+  "homepage": "https://github.com/whitebalance/1-pin",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-gh-pages": "^0.10.0",
+    "grunt-lintspaces": "^0.6.0"
+  }
+}
